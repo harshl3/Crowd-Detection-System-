@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Model weights (large files - download separately)
+*.pt
+model/*.pt
+
+# Videos (large files)
+videos/
+
+# Logs (generated at runtime)
+logs/
+
+# Assets (generated at runtime)
+assets/
+
+# Temp files
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
